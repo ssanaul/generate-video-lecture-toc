@@ -10,9 +10,9 @@ var createContainer = function(name, contents) {
 	let container = document.createElement('div');
 	let label     = document.createElement('h2');
 	
-	container.id       = name + '-container';
-	label.className    = name + '-title';
-	contents.className = name + '-list';
+	container.id       = name + '_container';
+	label.className    = name + '_title';
+	contents.className = name + '_list';
 	label.textContent  = 'Contents';
 	
 	container.appendChild(label);
